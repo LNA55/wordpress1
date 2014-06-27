@@ -1,0 +1,221 @@
+/*
+Ces informations sont lues par Wordpress
+Theme Name: Site wordpress temoin de ELENA
+Theme URI: 
+Author: Elena Web
+Author URI: http://www.shoette.com
+Description: Thème de base pour me former.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: wannabe geek
+Text Domain: blog
+*/
+
+/* ------- STYLE COMMUN A TOUTE LA PAGE ------- */
+
+body {
+  padding: 5px;
+  }
+
+  /* unvisited link */
+a:link {
+    color: #428bca;
+    /*font-weight: bold;*/
+    text-decoration: none;
+  }
+
+  /* visited link */
+a:visited {
+    color: #428bca;
+    /*font-weight: bold;*/
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+a:hover {
+    color: #428bca;
+    /*font-weight: bold;*/
+    text-decoration: underline; 
+  }
+
+  /* selected link */
+a:active {
+    color: #428bca;
+    /*font-style: bold;*/
+    text-decoration: underline;
+  }
+
+p {
+  line-height:110%;
+}
+
+p.white {
+  color: #ffffff;
+}
+
+p.gray {
+  color: #DBDBDB;
+}
+
+/* ------- STYLE POUR LE HEADER ------- */
+
+/* - barre de navigation - */
+
+.nav {
+  /* - taille du texte des nav pills - */
+  font-size: 14px;
+  /* - marge autour de la nav pills - */ 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* - hauteur des pills - */
+  line-height: 6px;
+  /* - dit à la nav pills de se mettre à droite - */
+  float: right;
+ }
+
+.nav-pills >li >a {
+    /* - dans les pills, voici la couleur du texte - */
+    color: #428bca;    
+    /* - dans les pills, voici la couleur du fond non active - */
+    background-color: #eee;
+    /* - largeur des pills - */
+    width: 100px;
+    /* - comportement du texte à l'intérieur des pills - */   
+    text-align: center;
+    /* - marge donc espacement des pills - */  
+    margin-left: 6px;
+ }
+
+
+.nav-pills>li>a:hover {
+    /* border: 1px solid #D18708; */
+    /* - en hover ça passe actuellement en gris : c'est pas moi c'est bootstrap - */  
+      }
+
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #DBDBDB;
+ /* en fait le hover ici c'est appelé focus */   
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  background-color: #428bca;
+    /* border: 1px solid #D18708; 
+    Ici le design de la classe active */
+}
+
+/* c'est la div que j'ai prévue pour le logo et la tagline */
+.mon-header {
+  padding-left: 40px;
+  padding-bottom: 10px;
+  }
+
+
+h1 { 
+  color: #DBDBDB;
+  text-align: center;
+  padding: 20px;
+  /* font-family: 'Nunito', sans-serif; */
+  font-weight: normal;
+}
+
+a span{
+  color:#09c;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+}
+
+a:hover span, a:focus span {
+     transform:scale(1) rotate(0); 
+}
+
+section.elena4 {
+  background-color: #8FC0EB;
+  text-align: center;
+  padding-top: 10px;
+  height: 200px;
+}
+
+/* ------- STYLE POUR LE FOOTER ------- */
+
+/* - section de la newsletter - */
+
+section.lanewsletter {
+  background-color: #428bca;
+  text-align: center;
+  padding-top: 10px;
+  height: 200px;
+}
+
+.descendre {
+  text-align: center;
+}
+
+
+h6 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+div.mc_embed_signup {
+  /* - trouver ici comment mieux afficher et en une ligne les éléments de MailChimp - */
+}
+
+/* - section des trois colonnes - */
+
+/* - section de la ligne de tout en bas - */
+#laderniere {
+  padding-top: 20px;
+}
+
+.fa-angle-double-down {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer-link {
+  list-style-type:none;
+  padding-left: 0px;
+}
+
+#ancre3 {
+  padding-top: 20px;
+}
+
+
+/* ------- ARCHIVES ------- */
+/* ------- ARCHIVES ------- */
+/* ------- ARCHIVES ------- */
+
+
+
+section.chose {background-color:#BFD5F5;}
+section.machin {background-color: #9DC1F5;}
+section.truc {background-color: #7DAFF5;}
+section.bidule {background-color: #9DC1F5;}
+section.slider {background-image:url(../images/fond-ecran-fonce.jpg);
+
+
+span.action{text-align:center}
+nav {text-align:right}
+
+section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+	}
+div {
+    padding-top: 10px;
+   	padding-bottom: 10px;
+  	padding-right: 10px;
+   	padding-left: 10px;
+ }
+
+
