@@ -34,6 +34,10 @@ PARTIE HEAD
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap-theme.min.css">
         <!-- indique ... -->
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
+		<!-- indique qu'on a installé uikit -->
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/uikit.min.css" />
+        <script src="<?php bloginfo('template_directory'); ?>/jquery.js"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/uikit.min.js"></script>
         <!-- indique ... -->
         <script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<!-- Pour mailchimp : vérifier si ça ne fait pas doublon avec le script ci-dessous -->

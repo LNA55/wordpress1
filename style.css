@@ -15,9 +15,13 @@ Text Domain: blog
 /* ------- STYLE COMMUN A TOUTE LA PAGE ------- */
 
 body {
-  padding: 5px;
+  padding: 0px;
   }
 
+section {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
   /* unvisited link */
 a:link {
     color: #428bca;
@@ -56,6 +60,12 @@ p.white {
 
 p.gray {
   color: #DBDBDB;
+}
+
+h5 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: right;
 }
 
 /* ------- STYLE POUR LE HEADER ------- */
@@ -135,12 +145,182 @@ a:hover span, a:focus span {
      transform:scale(1) rotate(0); 
 }
 
+/* ------- STYLE POUR LE BODY ------- */
+
+.jumbotron {
+  padding-top: 0px;
+  background-image:url(images/grey-texture.png);
+  background-position:left top;
+  margin-bottom: 0px;
+}
+
 section.elena4 {
   background-color: #8FC0EB;
   text-align: center;
   padding-top: 10px;
-  height: 200px;
+  /* height: 200px; */
 }
+
+section.elena5 {
+  background-color: #7095B5;
+  text-align: center;
+  padding-top: 10px;
+  /* height: 200px; */
+}
+
+#elena6 {
+  background-color: #DBDBDB;
+  text-align: center;
+  padding-top: 10px;
+  /* height: 200px; */
+  font-size: 10px;
+}
+
+section.bidule {
+  background-color: #9DC1F5;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+section.elena7 {
+  text-align: center;
+  background-color: #E8A323;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+section.elena8 {
+  background-color:#BFD5F5;
+  float: center;
+}
+
+section.elena9 {
+  background-color: #4B73D1;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+section.elena9>div>a:hover, section.elena9>div>a:focus, {
+  background-image:url('image/snoopy.png');
+}
+/* mettre une image qui s'affiche en hover sur btn-info */
+
+section.elena10 {
+  background-color: #7FA1F0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#milieu {
+  text-align: center;
+  font-size: 26px;
+}
+
+/* à cnvertir en css 
+.accordion {
+ margin: 50px;   
+ dt, dd {
+    padding: 10px;
+    border: 1px solid black;
+    border-bottom: 0; 
+    &:last-of-type {
+      border-bottom: 1px solid black; 
+    }
+    a {
+      display: block;
+      color: black;
+      font-weight: bold;
+    }
+ }
+dd {
+   border-top: 0; 
+   font-size: 12px;
+   &:last-of-type {
+     border-top: 1px solid white;
+     position: relative;
+     top: -1px;
+   }
+}
+}
+fin du code conseillé pour styliser l'accordéon de la section elena10 */
+
+section.elena11 {
+  background-color: #B8CAF5;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+section.elena12 {
+  background-color: #7FA1F0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.2);
+}
+
+.descendre .btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.descendre .btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+--------
+
+/*::selection {
+text-shadow: none;
+background: #fcfcfc;
+background: rgba(255,255,255,.2);
+}
+
+.descendre a {
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}*/
+
+
 
 /* ------- STYLE POUR LE FOOTER ------- */
 
@@ -176,7 +356,6 @@ div.mc_embed_signup {
 
 .fa-angle-double-down {
   color: #ffffff;
-  font-size: 20px;
 }
 
 .footer-link {
@@ -187,35 +366,4 @@ div.mc_embed_signup {
 #ancre3 {
   padding-top: 20px;
 }
-
-
-/* ------- ARCHIVES ------- */
-/* ------- ARCHIVES ------- */
-/* ------- ARCHIVES ------- */
-
-
-
-section.chose {background-color:#BFD5F5;}
-section.machin {background-color: #9DC1F5;}
-section.truc {background-color: #7DAFF5;}
-section.bidule {background-color: #9DC1F5;}
-section.slider {background-image:url(../images/fond-ecran-fonce.jpg);
-
-
-span.action{text-align:center}
-nav {text-align:right}
-
-section {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
-	}
-div {
-    padding-top: 10px;
-   	padding-bottom: 10px;
-  	padding-right: 10px;
-   	padding-left: 10px;
- }
-
 

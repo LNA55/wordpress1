@@ -29,17 +29,6 @@
 				<!--End mc_embed_signup-->
 			</div>
   		</div>
-
-  		<div class="descendre">
-  			<div class="row">
-			  
-				<a href="#ancre3" class="btn btn-circle"> 
-			  		<i class="fa fa-angle-double-down animated">
-				  	</i>
-				</a>
-			  
-			</div>
-  		</div>
 	</section>
 
 	<section>
